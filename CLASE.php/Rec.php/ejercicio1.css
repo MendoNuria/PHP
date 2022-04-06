@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.derecha{
+    border: 2px solid black;
+    background-color: darkgray;
+    position: absolute;
+    left:50%;
+    width:50%;
+    top:0;
+    
+}
+.izquierda{
+    border: 2px solid black;
+    background-color:lightcoral;
+    left:0;
+    width:50%;
+    top:0;
+    position: absolute;
+
+}
+
+
+
+.verde{
+    color:green;
+}
+.azul{
+    color:blue;
+}
