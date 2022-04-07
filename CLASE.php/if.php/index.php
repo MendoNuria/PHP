@@ -123,26 +123,25 @@ Deberás restar  100 todos los numeros del array y mostrar el resultado en panta
     //
     function letras($saludo)
     {
+        for ($i = 0; $i <= strlen($saludo) - 1; $i++) {
 
-        for ($i = 0; $i <= strlen($saludo) - 1; $i++){
-           
 
-        echo "<h1> La letra en posicion  $i $saludo[$i]  </h1> ";
-       
-    }}
+            echo "<h1> La letra en posicion  $i $saludo[$i]  </h1> ";
+        }
+    }
     echo letras("Pepito");
 
     function letras2($saludo)
     {
 
-        for ($i = 1; $i <= strlen($saludo) ; $i++){
-           
-            $indice = $i-1;
+        for ($i = 1; $i <= strlen($saludo); $i++) {
 
-        echo "<h1> La letra en posicion  $i $saludo[$indice]  </h1> ";
-       
-    }}
-    echo letras2("Pepito");    
+            $indice = $i - 1;
+
+            echo "<h1> La letra en posicion  $i $saludo[$indice]  </h1> ";
+        }
+    }
+    echo letras2("Pepito");
 
     ?>
 </body>
